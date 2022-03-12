@@ -8,8 +8,8 @@ It is a classic retro game created in Python using PyGame library
 
 ## Instructions
 
-W - Forward
-A - Left
-S - Backward
-D - Right
+W - Forward <br/>
+A - Left <br/>
+S - Backward <br/>
+D - Right <br/>
 Space - Shoot
