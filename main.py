@@ -1,10 +1,21 @@
 import pygame
+from pygame import mixer
 import os
 import time
 import random
+pygame.mixer.init()
+
+# Loading the song
+mixer.music.load("SpaceShooterPlaylist.mp3")
+    
+# Setting the volume
+mixer.music.set_volume(0.7)
+    
+# Start playing the song
+mixer.music.play()
 pygame.font.init()
 
-WIDTH, HEIGHT = 1000, 1000
+WIDTH, HEIGHT = 900, 800
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Space Shooter - Galaxy Attack")
 
