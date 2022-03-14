@@ -10,12 +10,12 @@ It is a classic retro game created in Python using PyGame library
 
 ## Setup
 
-pip install pygame
+`pip install pygame`
 
 
 ## How To Run
 
-python3 main.py
+`python3 main.py`
 
 
 ## Instructions
