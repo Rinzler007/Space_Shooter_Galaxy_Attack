@@ -6,6 +6,10 @@ It is a classic retro game created in Python using PyGame library
 
 ![Flowchart](/1.png)
 
+## Setup
+
+pip install pygame
+
 ## Instructions
 
 W - Forward <br/>
